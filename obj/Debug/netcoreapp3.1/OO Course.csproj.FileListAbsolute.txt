@@ -1,0 +1,11 @@
+C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\bin\Debug\netcoreapp3.1\OO Course.exe
+C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\bin\Debug\netcoreapp3.1\OO Course.deps.json
+C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\bin\Debug\netcoreapp3.1\OO Course.runtimeconfig.json
+C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\bin\Debug\netcoreapp3.1\OO Course.runtimeconfig.dev.json
+C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\bin\Debug\netcoreapp3.1\OO Course.dll
+C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\bin\Debug\netcoreapp3.1\OO Course.pdb
+C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\obj\Debug\netcoreapp3.1\OO Course.csprojAssemblyReference.cache
+C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\obj\Debug\netcoreapp3.1\OO Course.AssemblyInfoInputs.cache
+C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\obj\Debug\netcoreapp3.1\OO Course.AssemblyInfo.cs
+C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\obj\Debug\netcoreapp3.1\OO Course.dll
+C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\obj\Debug\netcoreapp3.1\OO Course.pdb
