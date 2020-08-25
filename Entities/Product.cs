@@ -1,4 +1,6 @@
-﻿namespace OO_Course.Entities
+﻿using System.Globalization;
+
+namespace OO_Course.Entities
 {
     class Product
     {
@@ -13,6 +15,13 @@
         {
             Name = name;
             Price = price;
+        }
+
+        public virtual string PriceTag()
+        {
+            return Name
+                + " $ "
+                + Price.ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }

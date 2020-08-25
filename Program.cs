@@ -1,8 +1,7 @@
-﻿using System;
-using System.Globalization;
+﻿using OO_Course.Entities;
+using System;
 using System.Collections.Generic;
-using OO_Course.Entities;
-using OO_Course.Entities.Enums;
+using System.Globalization;
 
 namespace OO_Course
 {
@@ -10,53 +9,48 @@ namespace OO_Course
     {
         static void Main(string[] args)
         {
-            // Client:
-            Console.WriteLine("Enter client data:");
-            Console.Write("Name: ");
-            string name = Console.ReadLine();
-            Console.Write("Email: ");
-            string email = Console.ReadLine();
-            Console.Write("Birth date (DD/MM/YYYY): ");
-            DateTime date = DateTime.Parse(Console.ReadLine());
+            List<Product> list = new List<Product>();
 
-            // Order:
-            Console.WriteLine("Enter order data:");
-            Console.Write("Status: ");
-            OrderStatus status = Enum.Parse<OrderStatus>(Console.ReadLine());
-            DateTime dateOrder = DateTime.Now;
-
-            Client client = new Client(name, email, date);
-            Order order = new Order(dateOrder, status, client);
-
-            // Product and OrderItem:
-            Console.Write("How many items to this order? ");
+            Console.Write("Enter the number of products: ");
             int n = int.Parse(Console.ReadLine());
 
-            for (int i = 1; i <= n; i++)
+            for(int i = 1; i <= n; i++)
             {
-                // Product:
-                Console.WriteLine($"Enter #{i} item data:");
-                Console.Write("Product name: ");
-                string productName = Console.ReadLine();
-                Console.Write("Product price: ");
+                Console.WriteLine($"Product {i} data:");
+                Console.Write("Common, used or imported (c/u/i)? ");
+                string type = Console.ReadLine();
+
+                Console.Write("Name: ");
+                string name = Console.ReadLine();
+                Console.Write("Price: ");
                 double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                
-                Product product = new Product(productName, price);
 
-                // OrderItem:
-                Console.Write("Quantity: ");
-                int quantity = int.Parse(Console.ReadLine());
+                if (type == "c")
+                {
+                    list.Add(new Product(name, price));
+                }
 
-                OrderItem item = new OrderItem(quantity, price, product);
+                else if (type == "u")
+                {
+                    Console.Write("Manufacture date (DD/MM/YYYY): ");
+                    DateTime date = DateTime.Parse(Console.ReadLine());
+                    list.Add(new UsedProduct(name, price, date));
+                }
 
-                // Order:
-                order.AddItem(item);
+                else if (type == "i")
+                {
+                    Console.Write("Customs fee: ");
+                    double customsFee = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                    list.Add(new ImportedProduct(name, price, customsFee));
+                }
             }
 
             Console.WriteLine();
-            Console.WriteLine("ORDER SUMMARY");
-            Console.WriteLine(order);
-
+            Console.WriteLine("PRICE TAGS:");
+            foreach(Product pro in list)
+            {
+                Console.WriteLine(pro.PriceTag());
+            }
         }
     }
 }

@@ -9,3 +9,5 @@ C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\O
 C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\obj\Debug\netcoreapp3.1\OO Course.AssemblyInfo.cs
 C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\obj\Debug\netcoreapp3.1\OO Course.dll
 C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\obj\Debug\netcoreapp3.1\OO Course.pdb
+C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\obj\Debug\netcoreapp3.1\OO Course.csproj.CoreCompileInputs.cache
+C:\Users\ralli\OneDrive\Rallisson\1.Documents\3.Estudy\4.Programming\1.C#\2.OO\OO Course\obj\Debug\netcoreapp3.1\OO Course.genruntimeconfig.cache
