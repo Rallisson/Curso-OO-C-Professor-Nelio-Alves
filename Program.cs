@@ -40,10 +40,10 @@ namespace OO_Course
 
             Console.WriteLine("IMPOSTO PAGO: ");
             double sum = 0.0;
-            foreach (Contribuinte acc in list)
+            foreach (Contribuinte com in list)
             {
-                Console.WriteLine(acc.ToString());
-                sum += acc.Imposto();
+                Console.WriteLine(com.ToString());
+                sum += com.Imposto();
             }
 
             Console.WriteLine("IMPOSTO TOTAL: $ " + sum);
